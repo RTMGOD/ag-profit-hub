@@ -4,52 +4,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Лучшие финансовые предложения 2024</title>
+    <title>Smart Profit Portal — Лучшие финансовые предложения 2026</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Smart Portal</h1>
-        <p>Выбирайте лучшие условия по картам, займам и работе</p>
+        <div class="container">
+            <div class="logo">SMART<span>PROFIT</span></div>
+            <nav>
+                <a href="#">Офферы</a>
+                <a href="#">Обзоры</a>
+                <a href="#advisor" class="special-link">AI Помощник</a>
+            </nav>
+        </div>
     </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Умный выбор финансовых инструментов</h1>
+            <p>Мы проанализировали сотни предложений и выбрали лучшие для вашего кошелька. Без скрытых комиссий и пустых обещаний.</p>
+        </div>
+    </section>
+
+    <section id="advisor" class="advisor-section">
+        <div class="container">
+            <div class="advisor-box">
+                <div class="advisor-icon">🤖</div>
+                <div class="advisor-content">
+                    <h3>Не знаете, что выбрать?</h3>
+                    <p>Наш AI-ассистент подберет карту или работу под ваши цели за 30 секунд.</p>
+                    <button class="btn-secondary" onclick="alert('AI Ассистент в процессе настройки! Скоро он будет подбирать офферы персонально для вас.')">Запустить подбор</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <main class="container">
-        
-            <div class="offer-card">
-                <div class="category">Дебетовые карты</div>
-                <h3>Тинькофф Блэк</h3>
-                <p>Лучшая карта с кэшбэком рублями, а не бонусами. Бесплатное обслуживание навсегда при оформлении по ссылке.</p>
-                <div class="payout">Выплата: 1500 ₽</div>
-                <a href="https://saleads.pro/ref/tinkoff_black_placeholder" target="_blank" class="btn">Оформить сейчас</a>
-            </div>
-            
-            <div class="offer-card">
-                <div class="category">Кредитные карты</div>
-                <h3>Альфа-Банк Travel</h3>
-                <p>Кредитка для путешественников с милями и длинным беспроцентным периодом до 365 дней.</p>
-                <div class="payout">Выплата: 3000 ₽</div>
-                <a href="https://saleads.pro/ref/alfa_travel_placeholder" target="_blank" class="btn">Оформить сейчас</a>
-            </div>
-            
-            <div class="offer-card">
-                <div class="category">Микрозаймы</div>
-                <h3>Займер</h3>
-                <p>Первый заем под 0%. Моментальное одобрение без справок и поручителей.</p>
-                <div class="payout">Выплата: 800 ₽</div>
-                <a href="https://saleads.pro/ref/zaymer_placeholder" target="_blank" class="btn">Оформить сейчас</a>
-            </div>
-            
-            <div class="offer-card">
-                <div class="category">Работа / HR</div>
-                <h3>Курьер в Яндекс Еду</h3>
-                <p>Работа со свободным графиком. Ежедневные выплаты. Бонус до 10 000 руб за первый месяц.</p>
-                <div class="payout">Выплата: 5000 ₽</div>
-                <a href="https://saleads.pro/ref/yandex_food_placeholder" target="_blank" class="btn">Оформить сейчас</a>
-            </div>
-            
+        <h2 class="category-title">Дебетовые карты</h2><div class="grid">
+                <div class="card">
+                    <div class="card-tag">Проверено</div>
+                    <h3>Тинькофф Блэк</h3>
+                    <div class="benefit">Кэшбэк рублями до 30%</div>
+                    <p>Лучшая карта с кэшбэком рублями. Бесплатное обслуживание навсегда при оформлении по этой ссылке. Умный овердрафт и проце...</p>
+                    <a href="https://saleads.pro/ref/tinkoff_black_placeholder" class="btn" target="_blank">Получить выгоду</a>
+                </div>
+                </div><h2 class="category-title">Кредитные карты</h2><div class="grid">
+                <div class="card">
+                    <div class="card-tag">Проверено</div>
+                    <h3>Альфа-Банк Travel</h3>
+                    <div class="benefit">Год без % на покупки</div>
+                    <p>Идеальная карта для тех, кто ценит свободу. 365 дней без процентов на покупки в первые 30 дней. Бесплатное снятие наличн...</p>
+                    <a href="https://saleads.pro/ref/alfa_travel_placeholder" class="btn" target="_blank">Получить выгоду</a>
+                </div>
+                </div><h2 class="category-title">Карты рассрочки</h2><div class="grid">
+                <div class="card">
+                    <div class="card-tag">Проверено</div>
+                    <h3>Карта Халва</h3>
+                    <div class="benefit">Рассрочка 0% до 24 месяцев</div>
+                    <p>Покупайте сейчас, платите потом без переплат. Более 250 000 магазинов-партнеров. Кэшбэк до 10% и доход на остаток средст...</p>
+                    <a href="https://saleads.pro/ref/halva_placeholder" class="btn" target="_blank">Получить выгоду</a>
+                </div>
+                </div><h2 class="category-title">Микрозаймы</h2><div class="grid">
+                <div class="card">
+                    <div class="card-tag">Проверено</div>
+                    <h3>Займер</h3>
+                    <div class="benefit">Первый заем под 0%</div>
+                    <p>Робот онлайн-займов №1 в России. Моментальное решение за 2 минуты. Деньги на карту мгновенно, даже с плохой кредитной ис...</p>
+                    <a href="https://saleads.pro/ref/zaymer_placeholder" class="btn" target="_blank">Получить выгоду</a>
+                </div>
+                </div><h2 class="category-title">Работа / HR</h2><div class="grid">
+                <div class="card">
+                    <div class="card-tag">Проверено</div>
+                    <h3>Курьер в Яндекс Еду</h3>
+                    <div class="benefit">Доход до 120 000 ₽ в месяц</div>
+                    <p>Становитесь партнером сервиса Яндекс Еда. Свободный график, ежедневные выплаты, форма и сумка бесплатно. Бонусы для нови...</p>
+                    <a href="https://saleads.pro/ref/yandex_food_placeholder" class="btn" target="_blank">Получить выгоду</a>
+                </div>
+                
+                <div class="card">
+                    <div class="card-tag">Проверено</div>
+                    <h3>Курьер в Самокат</h3>
+                    <div class="benefit">Оплата за каждый час</div>
+                    <p>Работа рядом с домом. Никаких штрафов, только почасовая оплата. Велосипед и форма предоставляются. Выплаты каждую неделю...</p>
+                    <a href="https://saleads.pro/ref/samokat_placeholder" class="btn" target="_blank">Получить выгоду</a>
+                </div>
+                </div><h2 class="category-title">Расчетный счет</h2><div class="grid">
+                <div class="card">
+                    <div class="card-tag">Проверено</div>
+                    <h3>Тинькофф Бизнес</h3>
+                    <div class="benefit">2 месяца бесплатно</div>
+                    <p>Откройте счет для бизнеса онлайн за 1 день. Бухгалтерия, конструктор сайтов и онлайн-касса — всё в одном месте....</p>
+                    <a href="https://saleads.pro/ref/tinkoff_biz_placeholder" class="btn" target="_blank">Получить выгоду</a>
+                </div>
+                </div>
     </main>
+
     <footer>
-        <p>&copy; 2024 AG Empire. Все права защищены.</p>
+        <div class="container">
+            <p>&copy; 2026 Smart Profit Portal. Все права защищены. Мы не являемся банком, мы помогаем вам выбирать лучшее.</p>
+        </div>
     </footer>
 </body>
 </html>
-        
