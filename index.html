@@ -4,106 +4,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Profit Portal — Лучшие финансовые предложения 2026</title>
+    <title>АЛЬТА ПЛЮС — Твоё Верное Направление</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">SMART<span>PROFIT</span></div>
-            <nav>
-                <a href="#">Офферы</a>
-                <a href="#">Обзоры</a>
-                <a href="#advisor" class="special-link">AI Помощник</a>
-            </nav>
-        </div>
-    </header>
+    <div id="app">
+        <div class="fixed-bg"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
 
-    <section class="hero">
-        <div class="container">
-            <h1>Умный выбор финансовых инструментов</h1>
-            <p>Мы проанализировали сотни предложений и выбрали лучшие для вашего кошелька. Без скрытых комиссий и пустых обещаний.</p>
-        </div>
-    </section>
-
-    <section id="advisor" class="advisor-section">
-        <div class="container">
-            <div class="advisor-box">
-                <div class="advisor-icon">🤖</div>
-                <div class="advisor-content">
-                    <h3>Не знаете, что выбрать?</h3>
-                    <p>Наш AI-ассистент подберет карту или работу под ваши цели за 30 секунд.</p>
-                    <button class="btn-secondary" onclick="alert('AI Ассистент в процессе настройки! Скоро он будет подбирать офферы персонально для вас.')">Запустить подбор</button>
-                </div>
+        <header class="header">
+            <div class="container">
+                <a href="/" class="logo">АЛЬТА<span>+</span></a>
+                <nav class="nav">
+                    <a href="#capital">КАПИТАЛ</a>
+                    <a href="#career">КАРЬЕРА</a>
+                    <a href="#about">МИССИЯ</a>
+                </nav>
             </div>
-        </div>
-    </section>
+        </header>
 
-    <main class="container">
-        <h2 class="category-title">Дебетовые карты</h2><div class="grid">
-                <div class="card">
-                    <div class="card-tag">Проверено</div>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">ТВОЁ ВЕРНОЕ<br>НАПРАВЛЕНИЕ</h1>
+                        <p class="hero-subtitle">Интеллектуальная навигация в мире финансовых решений и профессионального роста.</p>
+                        <div class="hero-btns">
+                            <a href="#capital" class="btn btn-primary">Начать сейчас</a>
+                            <a href="#career" class="btn btn-glass">Найти работу</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="capital" class="section">
+                <div class="container">
+                    <span class="section-num">01</span>
+                    <h2 class="section-title">КАПИТАЛ</h2>
+                    <div class="grid">
+                        
+                <div class="glass-card">
+                    <div class="card-header">
+                        <span class="tag tag-zero">ПРОВЕРЕНО</span>
+                        <div class="partner-logo-wrap">
+                            <span class="card-partner">SMART PARTNER</span>
+                        </div>
+                    </div>
                     <h3>Тинькофф Блэк</h3>
-                    <div class="benefit">Кэшбэк рублями до 30%</div>
-                    <p>Лучшая карта с кэшбэком рублями. Бесплатное обслуживание навсегда при оформлении по этой ссылке. Умный овердрафт и проце...</p>
-                    <a href="https://saleads.pro/ref/tinkoff_black_placeholder" class="btn" target="_blank">Получить выгоду</a>
-                </div>
-                </div><h2 class="category-title">Кредитные карты</h2><div class="grid">
-                <div class="card">
-                    <div class="card-tag">Проверено</div>
-                    <h3>Альфа-Банк Travel</h3>
-                    <div class="benefit">Год без % на покупки</div>
-                    <p>Идеальная карта для тех, кто ценит свободу. 365 дней без процентов на покупки в первые 30 дней. Бесплатное снятие наличн...</p>
-                    <a href="https://saleads.pro/ref/alfa_travel_placeholder" class="btn" target="_blank">Получить выгоду</a>
-                </div>
-                </div><h2 class="category-title">Карты рассрочки</h2><div class="grid">
-                <div class="card">
-                    <div class="card-tag">Проверено</div>
-                    <h3>Карта Халва</h3>
-                    <div class="benefit">Рассрочка 0% до 24 месяцев</div>
-                    <p>Покупайте сейчас, платите потом без переплат. Более 250 000 магазинов-партнеров. Кэшбэк до 10% и доход на остаток средст...</p>
-                    <a href="https://saleads.pro/ref/halva_placeholder" class="btn" target="_blank">Получить выгоду</a>
-                </div>
-                </div><h2 class="category-title">Микрозаймы</h2><div class="grid">
-                <div class="card">
-                    <div class="card-tag">Проверено</div>
-                    <h3>Займер</h3>
-                    <div class="benefit">Первый заем под 0%</div>
-                    <p>Робот онлайн-займов №1 в России. Моментальное решение за 2 минуты. Деньги на карту мгновенно, даже с плохой кредитной ис...</p>
-                    <a href="https://saleads.pro/ref/zaymer_placeholder" class="btn" target="_blank">Получить выгоду</a>
-                </div>
-                </div><h2 class="category-title">Работа / HR</h2><div class="grid">
-                <div class="card">
-                    <div class="card-tag">Проверено</div>
-                    <h3>Курьер в Яндекс Еду</h3>
-                    <div class="benefit">Доход до 120 000 ₽ в месяц</div>
-                    <p>Становитесь партнером сервиса Яндекс Еда. Свободный график, ежедневные выплаты, форма и сумка бесплатно. Бонусы для нови...</p>
-                    <a href="https://saleads.pro/ref/yandex_food_placeholder" class="btn" target="_blank">Получить выгоду</a>
+                    <div class="card-reward">Кэшбэк рублями до 30%</div>
+                    <p>Лучшая карта с кэшбэком рублями. Бесплатное обслуживание навсегда при оформлении по этой ссылке. Умный овердрафт и процент на остаток....</p>
+                    <div class="card-footer">
+                        <a href="https://saleads.pro/ref/tinkoff_black_placeholder" class="card-btn primary" target="_blank">ОФОРМИТЬ</a>
+                    </div>
                 </div>
                 
-                <div class="card">
-                    <div class="card-tag">Проверено</div>
-                    <h3>Курьер в Самокат</h3>
-                    <div class="benefit">Оплата за каждый час</div>
-                    <p>Работа рядом с домом. Никаких штрафов, только почасовая оплата. Велосипед и форма предоставляются. Выплаты каждую неделю...</p>
-                    <a href="https://saleads.pro/ref/samokat_placeholder" class="btn" target="_blank">Получить выгоду</a>
+                <div class="glass-card">
+                    <div class="card-header">
+                        <span class="tag tag-new">ПРОВЕРЕНО</span>
+                        <div class="partner-logo-wrap">
+                            <span class="card-partner">SMART PARTNER</span>
+                        </div>
+                    </div>
+                    <h3>Альфа-Банк Travel</h3>
+                    <div class="card-reward">Год без % на покупки</div>
+                    <p>Идеальная карта для тех, кто ценит свободу. 365 дней без процентов на покупки в первые 30 дней. Бесплатное снятие наличных в любых банкомата...</p>
+                    <div class="card-footer">
+                        <a href="https://saleads.pro/ref/alfa_travel_placeholder" class="card-btn primary" target="_blank">ОФОРМИТЬ</a>
+                    </div>
                 </div>
-                </div><h2 class="category-title">Расчетный счет</h2><div class="grid">
-                <div class="card">
-                    <div class="card-tag">Проверено</div>
+                
+                <div class="glass-card">
+                    <div class="card-header">
+                        <span class="tag tag-zero">ПРОВЕРЕНО</span>
+                        <div class="partner-logo-wrap">
+                            <span class="card-partner">SMART PARTNER</span>
+                        </div>
+                    </div>
+                    <h3>Карта Халва</h3>
+                    <div class="card-reward">Рассрочка 0% до 24 месяцев</div>
+                    <p>Покупайте сейчас, платите потом без переплат. Более 250 000 магазинов-партнеров. Кэшбэк до 10% и доход на остаток средств....</p>
+                    <div class="card-footer">
+                        <a href="https://saleads.pro/ref/halva_placeholder" class="card-btn primary" target="_blank">ОФОРМИТЬ</a>
+                    </div>
+                </div>
+                
+                <div class="glass-card">
+                    <div class="card-header">
+                        <span class="tag tag-zero">ПРОВЕРЕНО</span>
+                        <div class="partner-logo-wrap">
+                            <span class="card-partner">SMART PARTNER</span>
+                        </div>
+                    </div>
+                    <h3>Займер</h3>
+                    <div class="card-reward">Первый заем под 0%</div>
+                    <p>Робот онлайн-займов №1 в России. Моментальное решение за 2 минуты. Деньги на карту мгновенно, даже с плохой кредитной историей....</p>
+                    <div class="card-footer">
+                        <a href="https://saleads.pro/ref/zaymer_placeholder" class="card-btn primary" target="_blank">ОФОРМИТЬ</a>
+                    </div>
+                </div>
+                
+                <div class="glass-card">
+                    <div class="card-header">
+                        <span class="tag tag-new">ПРОВЕРЕНО</span>
+                        <div class="partner-logo-wrap">
+                            <span class="card-partner">SMART PARTNER</span>
+                        </div>
+                    </div>
                     <h3>Тинькофф Бизнес</h3>
-                    <div class="benefit">2 месяца бесплатно</div>
+                    <div class="card-reward">2 месяца бесплатно</div>
                     <p>Откройте счет для бизнеса онлайн за 1 день. Бухгалтерия, конструктор сайтов и онлайн-касса — всё в одном месте....</p>
-                    <a href="https://saleads.pro/ref/tinkoff_biz_placeholder" class="btn" target="_blank">Получить выгоду</a>
+                    <div class="card-footer">
+                        <a href="https://saleads.pro/ref/tinkoff_biz_placeholder" class="card-btn primary" target="_blank">ОФОРМИТЬ</a>
+                    </div>
                 </div>
+                
+                    </div>
                 </div>
-    </main>
+            </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Smart Profit Portal. Все права защищены. Мы не являемся банком, мы помогаем вам выбирать лучшее.</p>
-        </div>
-    </footer>
+            <section id="career" class="section">
+                <div class="container">
+                    <span class="section-num">02</span>
+                    <h2 class="section-title">КАРЬЕРА</h2>
+                    <div class="grid">
+                        
+                <div class="glass-card">
+                    <div class="card-header">
+                        <span class="tag tag-new">ПРОВЕРЕНО</span>
+                        <div class="partner-logo-wrap">
+                            <span class="card-partner">SMART PARTNER</span>
+                        </div>
+                    </div>
+                    <h3>Курьер в Яндекс Еду</h3>
+                    <div class="card-reward">Доход до 120 000 ₽ в месяц</div>
+                    <p>Становитесь партнером сервиса Яндекс Еда. Свободный график, ежедневные выплаты, форма и сумка бесплатно. Бонусы для новичков....</p>
+                    <div class="card-footer">
+                        <a href="https://saleads.pro/ref/yandex_food_placeholder" class="card-btn primary" target="_blank">ОФОРМИТЬ</a>
+                    </div>
+                </div>
+                
+                <div class="glass-card">
+                    <div class="card-header">
+                        <span class="tag tag-new">ПРОВЕРЕНО</span>
+                        <div class="partner-logo-wrap">
+                            <span class="card-partner">SMART PARTNER</span>
+                        </div>
+                    </div>
+                    <h3>Курьер в Самокат</h3>
+                    <div class="card-reward">Оплата за каждый час</div>
+                    <p>Работа рядом с домом. Никаких штрафов, только почасовая оплата. Велосипед и форма предоставляются. Выплаты каждую неделю....</p>
+                    <div class="card-footer">
+                        <a href="https://saleads.pro/ref/samokat_placeholder" class="card-btn primary" target="_blank">ОФОРМИТЬ</a>
+                    </div>
+                </div>
+                
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section about-block">
+                <div class="container">
+                    <div class="mission-wrapper">
+                        <h2 class="mission-title">АЛЬТА — ЭТО НЕ ПРО КРЕДИТЫ.<br>ЭТО ПРО ВОЗМОЖНОСТИ.</h2>
+                        <p class="mission-text">Мы убрали лишний шум и оставили только то, что работает. Наша цель — дать вам ясный путь к личной и финансовой свободе.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-bottom">
+                    <p class="disclaimer">Сайт является агрегатором предложений. Все права на товарные знаки принадлежат их законным владельцам. Не является финансовой организацией или работодателем.</p>
+                    <p class="copy">© 2026 АЛЬТА. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
